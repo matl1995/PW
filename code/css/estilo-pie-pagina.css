@@ -1,0 +1,32 @@
+/*Estilo de la fuente de la web*/
+body{
+	font-family: Ubuntu; 
+}
+
+/*
+*	Elementos del pie de pagina
+*/
+
+/*Estilo para el pie de pagina(index-portada)*/
+#pie {
+	background: #365FA7;
+	color: white;
+	height: 2em;
+	width: 100%;
+	left: 0em;
+	bottom: 0em;
+	position: fixed;
+}
+
+/*Estilo para los parrafos del pie de pagina(index-portada)*/
+#pie p{
+	font-size: 1.5em;
+	padding-left: 42.2%;
+	margin-top: 0%;
+	color: #EFD28E;
+}
+
+/*Estilo para los links del pie de pagina(index-portada)*/
+#pie a{
+	color: #EFD28E;
+}

@@ -1,0 +1,214 @@
+/*Estilo de la fuente de la web*/
+body{
+	font-family: Ubuntu; 
+}
+
+/*
+*	Elementos de la cabecera
+*/
+
+/*Estilo para la cabecera en si*/
+#cabecera {
+	background: #365FA7;
+	color: white;
+	height: 5em;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}	
+
+/*Estilo para el h1 de la cabecera*/
+#cabecera h1{
+	color: #EFD28E;
+	padding-left: 43.8%;
+	margin-top: -0.1%;
+	font-size: 4em;
+}
+
+/*Estilo para el los enlaces de la caberera*/
+#cabecera a{
+	color: #EFD28E;
+	text-decoration: none;
+}
+
+/*Estilo para la imagen con el logo que se encuentra en la cabecera*/
+#img-logo {
+	float: left;
+	padding: 0.3em 0 0 0.3em;
+	height: 4.3em;
+	width: 9.3em;
+}
+
+/*Estilo para la imagen del usuario que se encuentra en la cabecera*/
+#img-user{
+	height: 3em;
+	width: 4em;
+	float: right;
+	margin-top: -6.8em;
+	margin-right: 3.5em;
+}
+
+/*Estilo para el nombre de usuario que se encuentra en la cabecera*/
+#nombre-usuario-cabecera{
+	color: #EFD28E;
+	float:right;
+	margin-right: 8em;
+	margin-top: -7em;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+/*Estilo para el enlace que se encarga de cerrar sesion en la cabecera*/
+#cerrar-sesion-cabecera{
+	color: #EFD28E;
+	float:right;
+	margin-right: 2.8em;
+	margin-top: -3.6em;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+/*
+*	Elementos de la seccion superior (biografia-fotos-informacion)
+*/
+
+/*Estilo de la seccion que contiene la biografia-fotos-informacion*/
+#seccion-superior{
+	border-width: 0.1em;
+	border-color: #365FA7;
+	border-style: solid;
+	background: #365FA7;
+	padding-top: 2em;
+	margin-left: -0.6%;
+	padding-left: 31%;
+	font-size: 1.5em;
+	width: 69.9%;
+	height: 2.3em;
+}
+
+/*Estilo de los botones dentro de la seccion indicada*/
+#seccion-superior button{
+	margin-top: 1.2em;
+	height: 1.7em;
+	width: 15%;
+	margin-left: 0.8em;
+	font-style: bold;
+	font-size: 0.8em;
+	background-color: #365FA7;
+	border-style: solid;
+	border-color: #488D61;
+	border-width: 0.17em;
+	transition-duration: 0.4s;
+	border-radius: 0.3em;
+	cursor: pointer;
+}
+
+/*Estilo del boton cuando pasa el raton por encima*/
+#seccion-superior button:hover{
+    background-color: #488D61;
+    color: #EFD28E;
+}
+
+/*Estilo del los enlaces*/
+#seccion-superior a{
+    text-decoration: none;
+    color: #c2c2d6;
+}
+
+/*
+*	Elementos de la seccion amigos
+*/
+
+/*Estilo de la seccion que contiene los amigos del usuario*/
+#seccion-amigos{
+	border-width: 0.1em;
+	border-color: #365FA7;
+	border-style: solid;
+	margin-left: -0.6%;
+	font-size: 1.5em;
+	width: 100.9%;
+	height: 5em;
+	overflow-y: auto;
+	background-color: #c2c2d6;
+}
+
+/*Estilo de la lista de la seccion indicada(portada)*/
+#seccion-amigos ul{
+	list-style-type: none;
+	margin-left: -2%;
+	margin-top: 0.5em;
+}
+
+/*Estilo de los elementos de la lista de la seccion indicada(portada)*/
+#seccion-amigos li{
+	float:left;
+	margin-left: 5%;
+}
+
+/*Estilo de los enlaces de la seccion indicada(portada)*/
+#seccion-amigos a{
+	color: #488D61;
+	text-decoration: none;
+}
+
+/*Estilo de los parrafos de la seccion indicada(portada)*/
+#seccion-amigos p{
+	margin-top: -0.1em;
+	margin-bottom: 0em;
+	margin-left: 0.1em;
+}
+
+
+/*
+*	Elementos de la seccion amigos activos
+*/
+
+/*Estilo de la seccion en la que se encuentran los amigos activos del usuario(portada)*/
+#seccion-amigos-activos{
+	border-width: 0.1em;
+	border-color: #365FA7;
+	border-style: solid;
+	border-bottom: 0;
+	font-size: 1.5em;
+	margin-right: -0.35em;
+	width: 10.6%;
+	height: 33.8em;
+	float:right;
+	overflow-y: auto;
+	background-color: #c2c2d6;
+}
+
+/*Estilo de la lista de la seccion indicada(portada)*/
+#seccion-amigos-activos ul{
+	list-style-type: none;
+	margin-left: -14%;
+	margin-top: 0.5em;
+}
+
+/*Estilo de los elementos de la lista de la seccion indicada(portada)*/
+#seccion-amigos-activos li{
+	float:left;
+	margin-left: 5%;
+}
+
+/*Estilo de los enlaces de la seccion indicada(portada)*/
+#seccion-amigos-activos a{
+	color: #488D61;
+	text-decoration: none;
+}
+
+/*Estilo de los parrafos de la seccion indicada(portada)*/
+#seccion-amigos-activos p{
+	margin-top: -0.1em;
+	margin-bottom: 0em;
+	margin-left: 0.1em;
+}
+
+/*Estilo de la etiqueta h6 de la seccion indicada(portada)*/
+#seccion-amigos-activos h6{
+	color: #283248;
+	margin-top: -0.3em;
+	margin-bottom: 0.5em;
+	margin-left: -1.4em;
+}

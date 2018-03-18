@@ -1,0 +1,78 @@
+/*Estilo de la fuente de la web*/
+body{
+	font-family: Ubuntu; 
+}
+/*
+*	Elementos de la seccion publicaciones
+*/
+
+/*Estilo de la seccion en la que se encuentran las publicaciones(portada)*/
+#seccion-publicaciones{
+	border-width: 0.1em;
+	border-color: #365FA7;
+	border-style: solid;
+	margin-left: -0.6%;
+	font-size: 1.5em;
+	width: 89.9%;
+	height: 35em;
+	float:left;
+	background-color: #c2c2d6;
+}
+
+/*Estilo para los parrafos dentro de la seccion indicada*/
+#seccion-publicaciones-p{
+	font-size: 0.85em;
+	margin-left: 12%;
+	line-height: 2.5em;
+}
+
+/*Estilo para los parrafos dentro de la seccion indicada*/
+#seccion-publicaciones-h3{
+	margin-left: 10%;
+	color: #004080;
+	line-height: 0.5em;
+}
+
+/*Estilo de la lista de la seccion indicada(portada)*/
+#seccion-publicaciones ul{
+	list-style-type: none;
+	margin-left: -15%;
+	margin-top: 0.5em;
+}
+
+/*Estilo de los elementos de la lista de la seccion indicada(portada)*/
+#seccion-publicaciones li{
+	float:left;
+	margin-left: 13.5%;
+	margin-top: 1em;
+}
+
+/*Estilo de las secciones dentro de la seccion indicada(portada)*/
+#seccion-publicaciones-seccion{
+	font-size: 1em;
+	width: 18em;
+	height: 6.5em;
+	float: left;
+}
+
+/*Estilo de las imagenes dentro de la sección indicada(portada)*/
+#seccion-publicaciones img{
+	margin-top: 1em;
+}
+
+/*Estilo de la imagen de perfil que se muestra en el apartado de información*/
+#informacion-foto-perfil{
+	margin-left: 12%;
+}
+
+/*Estilo de el parrafo que contiene la numeracion de las publicaciones que se pueden ver(portada)*/
+#parrafo-numeracion{
+	margin-top: 25.5em;
+	margin-left: 49%;
+}
+
+/*Estilo de los links que hay dentro del parrafo indicado(portada)*/
+#parrafo-numeracion a{
+	text-decoration: none;
+	color: #283248;
+}

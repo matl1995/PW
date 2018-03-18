@@ -1,0 +1,186 @@
+/*Estilo de la fuente de la web*/
+body{
+	font-family: Ubuntu; 
+}
+
+/*
+*	Elementos de la cabecera
+*/
+
+/*Estilo para la cabecera en si*/
+#cabecera {
+	background: #365FA7;
+	color: white;
+	height: 5em;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}	
+
+/*Estilo para el h1 de la cabecera*/
+#cabecera h1{
+	color: #EFD28E;
+	padding-left: 43.8%;
+	margin-top: -0.1%;
+	font-size: 4em;
+}
+
+/*Estilo para el los enlaces de la caberera*/
+#cabecera a{
+	color: #EFD28E;
+	text-decoration: none;
+}
+
+/*Estilo para la imagen con el logo que se encuentra en la cabecera*/
+#img-logo {
+	float: left;
+	padding: 0.3em 0 0 0.3em;
+	height: 4.3em;
+	width: 9.3em;
+}
+
+/*Estilo para el formulario que se encuentra en la cabecera*/
+#cabecera form{
+	color: #EFD28E;
+	float: right;
+	margin-top: -9.1em;
+	margin-right: 2.5em;
+	font-size: 0.8em;
+}
+
+/*Estilo para el formulario que se encuentra en la cabecera*/
+#cabecera form input{
+	height: 0.6em;
+	width: 9em;
+}
+
+/*Estilo para el submit del formulario que se encuentra en la cabecera*/
+#cabecera form input[type="submit"]{
+	margin-top: 0.1em;
+	margin-left: 0.8em;
+	cursor:pointer;
+	width: 8em;
+	height: 1.4em;
+	font-style: bold;
+	font-size: 1em;
+	color:#365FA7;
+	border: solid;
+	border-color: #488D61;
+	border-width: 0.15em;
+	background-color: white;
+	border-radius: 0.2em;
+	transition-duration: 0.4s;
+}
+
+
+/*Estilo para el submit cuando tiene el raton encima*/
+#cabecera form input[type="submit"]:hover{
+    background-color: #488D61;
+    color: #EFD28E;
+}
+
+/*
+*	Elementos de la seccion izquierda
+*/
+
+
+/*Estilo para la seccion izquierda*/
+#seccion-izquierda-index{
+	float:left;
+	margin-top: 4.5em;
+	margin-left: -0.5em;
+	width: 49%;
+	height: 77.4%;
+	position: fixed;
+}
+
+/*Estilo para las imagenes de la seccion izquierda*/
+#seccion-izquierda-index img{
+	width: 100%;
+	height: 100%;
+}
+
+/*
+*	Elementos de la seccion derecha
+*/
+
+/*Estilo para la seccion derecha*/
+#seccion-derecha-index{
+	float: right;
+	margin-top: 4.5em;
+	margin-right: -0.5em;
+	width: 51.1%;
+	height: 34.9em;
+	border-left: 0.4em;
+	border-top:0px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-color: #365FA7;
+	border-style: solid;
+	position: static;
+	background-color: #c2c2d6;
+}
+
+/*Estilo para el formulario de la seccion derecha*/
+#seccion-derecha-index form{
+	padding-left: 8em;
+	padding-top: 1em;
+	font-size: 1.3em;
+	color: #283248;
+}
+
+/*Estilo para los input del formulario de la seccion derecha*/
+#seccion-derecha-index form input{
+	width: 25em;
+	height: 1.5em;
+	color: #283248;
+}
+
+/*Estilo del submit del formulario de la seccion derecha*/
+#seccion-derecha-index input[type="submit"]{
+	width: 11.6em;
+	height: 2em;
+	font-style: bold;
+	font-size: 1.4em;
+	color: #365FA7;
+	border: solid;
+	border-color: #488D61;
+	background-color: white;
+	border-radius: 0.2em;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+/*Estilo del submit cuando el raton esta encima*/
+#seccion-derecha-index input[type="submit"]:hover{
+    background-color: #488D61;
+    color: #EFD28E;
+}
+
+/*Estilo de el mensaje que se puede enviar en la seccion de contacto*/
+#input-contenido-contacto{
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	width: 63.5%;
+	height: 6em;
+	float: left;
+	resize: none;
+}
+
+/*Estilo del parrafo que contiene la información de contacto*/
+#parrafo-contacto{
+	margin-left: 6%;
+	font-size: 140%;
+	margin-top: 2em;
+	line-height: 3em;
+	color: #283248;
+}
+
+/*Estilo de la cabecera h3 de la seccion contacto*/
+#h3-contacto{
+	font-size: 200%;
+	margin-top: 1em;
+	margin-left: 2%;
+	color: #283248;
+}

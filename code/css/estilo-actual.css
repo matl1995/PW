@@ -1,0 +1,243 @@
+/*Estilo de la fuente de la web*/
+body{
+	font-family: Ubuntu; 
+}
+
+/*
+*	Elementos de la seccion publicaciones para un usuario especifico(pepe)
+*/
+
+/*Estilo de la seccion en la que se encuentran las publicaciones*/
+#seccion-publicaciones-usuario{
+	border-width: 0.1em;
+	border-color: #365FA7;
+	border-style: solid;
+	margin-left: -0.6%;
+	font-size: 1.5em;
+	width: 89.9%;
+	height: 35em;
+	float:left;
+	background-color: #c2c2d6;
+	overflow-y: auto;
+}
+
+/*Estilo para los parrafos dentro de la seccion indicada*/
+#seccion-publicaciones-usuario-p{
+	font-size: 0.85em;
+	margin-left: 12%;
+	line-height: 2.5em;
+}
+
+/*Estilo para los parrafos dentro de la seccion indicada*/
+#seccion-publicaciones-usuario-h3{
+	margin-left: 10%;
+	color: #004080;
+	line-height: 0.5em;
+}
+
+/*Estilo de la lista de la seccion indicada*/
+#seccion-publicaciones-usuario ul{
+	list-style-type: none;
+	margin-left: -15%;
+	margin-top: 0.5em;
+}
+
+/*Estilo de los elementos de la lista de la seccion indicada*/
+#seccion-publicaciones-usuario li{
+	float:left;
+	margin-left: 13.5%;
+	margin-top: 1em;
+}
+
+/*Estilo de las secciones dentro de la seccion indicada*/
+#seccion-publicaciones-section{
+	border-width: 0.1em;
+	border-color: #6699ff;
+	border-style: solid;
+	font-size: 1em;
+	width: 18em;
+	height: 7.3em;
+	float: left;
+	background-color: #6699ff;
+}
+
+/*Estilo de las secciones dentro en el apartado de fotos*/
+#seccion-publicaciones-section-fotos{
+	font-size: 1em;
+	width: 100%;
+	height: 6.5em;
+	float: left;
+}
+
+/*Estilo de las imagenes dentro de la sección indicada(portada)*/
+#seccion-publicaciones-usuario img{
+	margin-top: 1em;
+	margin-left: 0.5em;
+}
+
+/*Estilo de la imagen de perfil que se muestra en el apartado de información*/
+#informacion-foto-perfil{
+	margin-left: -25%;
+}
+
+#selector-imagen{
+	margin-left: 2%;
+}
+
+#informacion-submit{
+	margin-left: 5%;
+	margin-top: 1em;
+	float: left;
+	margin-bottom: 4em;
+	cursor: pointer;
+	width: 15%;
+	height: 2em;
+	font-style: bold;
+	font-size: 0.7em;
+    color: #EFD28E;
+	border: solid;
+	border-color: #488D61;
+	border-width: 0.15em;
+	background-color: #488D61;
+	border-radius: 0.2em;
+}
+
+/*Estilo del parrafo que contiene el tiempo de la publicacion(portada)*/
+#parrafo-tiempo-publicacion-p{
+	font-size: 0.7em;
+	margin-top: -1.5em;
+	margin-left: 25%;
+	margin-bottom: 0.8em;
+}
+
+/*Estilo del link al usuario que ha publicado la publicacion(portada)*/
+#link-usuario-publicacion{
+	font-size: 0.7em;
+	color: #488D61;
+	text-decoration: none;
+	float:left;
+	margin-top: 0.15em;
+	margin-right: -17%;
+	margin-left: 5%;
+}
+
+/*Estilo del link a la publicacion(portada)*/
+#link-titulo-publicacion{
+	font-size: 1.2em;
+	text-decoration: none;
+	color: #283248;
+	margin-left: 13%;
+}
+
+/*Estilo de el parrafo que contiene un trozo de la publicacion(portada)*/
+#parrafo-contenido-publicacion-p{
+	font-size: 0.8em;
+	margin-top: 0.3em;
+	margin-left: 16%;
+	text-decoration: none;
+}
+
+/*Estilo de el parrafo que contiene la numeracion de las publicaciones que se pueden ver(portada)*/
+#parrafo-numeracion{
+	margin-top: 31.5em;
+	margin-left: 46%;
+}
+
+/*Estilo de los links que hay dentro del parrafo indicado(portada)*/
+#parrafo-numeracion a{
+	text-decoration: none;
+	color: #283248;
+}
+
+/*
+*	Estilo para la seccion de escribir una nueva publicacion
+*/
+
+#personal-publicar{
+	border-width: 0.1em;
+	border-color: #365FA7;
+	border-style: solid;
+	margin-left: -0.25%;
+	font-size: 1.5em;
+	width: 99.8%;
+	height: 4.8em;
+	float:left;
+	background-color: #c2c2d6;
+}
+
+#link-usuario-escribir{
+	font-size: 0.75em;
+	color: #488D61;
+	text-decoration: none;
+	float:left;
+	margin-top: 0.7em;
+	margin-right: -17%;
+	margin-left: 13%;
+}
+
+#personal-publicar img{
+	margin-top: 1.7em;
+	margin-left: 11.7%;
+	margin-bottom: 0;
+}
+
+#parrafo-escribir-titulo{
+	font-size: 0.45em;
+	margin-left: 21%;
+	margin-top: -8.5em;
+}
+
+#input-titulo-pub{
+	margin-left: 20.7%;
+	margin-top: -1em;
+	width: 20%;
+	height: 1.2em;
+	float: left;
+	resize: none;
+}
+
+#parrafo-escribir-publicacion{
+	margin-top: 1.7em;
+	font-size: 0.45em;
+	margin-left: 21%;
+}
+
+#input-contenido-pub{
+	margin-left: 21%;
+	margin-top: -0.95em;
+	width: 40%;
+	height: 3em;
+	float: left;
+	resize: none;
+}
+
+/*Estilo para el submit de escribir comentario*/
+#personal-publicar form input[type="submit"]{
+	margin-top: -0.2em;
+	margin-left: 0.5%;
+	cursor: pointer;
+	width: 10%;
+	font-style: bold;
+	font-size: 0.55em;
+	color:#365FA7;
+	border: solid;
+	border-color: #488D61;
+	border-width: 0.15em;
+	background-color: white;
+	border-radius: 0.2em;
+	transition-duration: 0.4s;
+	float:left;
+}
+
+
+/*Estilo para el submit cuando tiene el raton encima(index)*/
+#personal-publicar form input[type="submit"]:hover{
+    background-color: #488D61;
+    color: #EFD28E;
+}
+
+#personal-publicar form input[type="file"]{
+	margin-top: 3.5em;
+	margin-left: -51%;
+	cursor: pointer;
+}

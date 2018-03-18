@@ -1,0 +1,302 @@
+/*Estilo de la fuente de la web*/
+body{
+	font-family: Ubuntu; 
+}
+
+/*
+*	Elementos de la cabecera
+*/
+
+/*Estilo para la cabecera en si*/
+#cabecera {
+	background: #365FA7;
+	color: white;
+	width: 99.9%;
+	position: fixed;
+}	
+
+/*Estilo para el h1 de la cabecera*/
+#cabecera h1{
+	color: #EFD28E;
+	padding-left: 35.8%;
+	margin-top: -0.1%;
+	font-size: 350%;
+}
+
+/*Estilo para el los enlaces de la caberera*/
+#cabecera a{
+	color: #EFD28E;
+	text-decoration: none;
+}
+
+/*Estilo para la imagen con el logo que se encuentra en la cabecera*/
+#img-logo {
+	width: 15%;
+	content:url("../imagenes/logout.png");
+}
+
+/*Estilo para la imagen del usuario que se encuentra en la cabecera*/
+#img-user{
+	width: 15%;
+	height: 105%;
+	margin-right: 0%;
+}
+
+/*Estilo para el nombre de usuario que se encuentra en la cabecera*/
+#nombre-usuario-cabecera{
+	font-size: 0%;
+}
+
+/*Estilo para el enlace que se encarga de cerrar sesion en la cabecera*/
+#cerrar-sesion-cabecera{
+	font-size: 0%;
+}
+
+/*
+*	Elementos de la seccion superior (biografia-fotos-informacion)
+*/
+
+/*Estilo de la seccion que contiene la biografia-fotos-informacion*/
+#seccion-superior{
+	border-width: 0.1%;
+	border-color: #365FA7;
+	border-style: solid;
+	background: #365FA7;
+	margin-top: 3.3em;
+	width: 73.1%;
+	height: 6em;
+	margin-left: -2.4%;
+	font-size: 1em;
+	
+}
+
+/*Estilo de los botones dentro de la seccion indicada*/
+#seccion-superior button{
+	font-style: bold;
+	background-color: #365FA7;
+	border-style: solid;
+	border-color: #488D61;
+	border-width: 0.17%;
+	transition-duration: 0.4s;
+	border-radius: 0%;
+	cursor: pointer;
+	font-size: 0.8em;
+	width: 143%;
+	height: 35%;
+	margin-top: 0em;
+	margin-bottom: -0.1em;
+	margin-left: -42.7%;
+}
+
+/*Estilo del boton cuando pasa el raton por encima*/
+#seccion-superior button:hover{
+    background-color: #488D61;
+    color: #EFD28E;
+}
+
+/*Estilo del los enlaces*/
+#seccion-superior a{
+    text-decoration: none;
+    color: #c2c2d6;
+}
+
+/*
+*	Elementos de la seccion amigos
+*/
+
+/*Estilo de la seccion que contiene los amigos del usuario*/
+#seccion-amigos{
+	border-style: none;
+	margin-left: -1.9%;
+	font-size: 100%;
+	width: 104.3%;
+	height: 11.9em;
+	overflow-y: auto;
+	background-color: #c2c2d6;
+}
+
+/*Estilo de la lista de la seccion indicada(portada)*/
+#seccion-amigos ul{
+	list-style-type: none;
+	margin-left: -10%;
+	margin-top: 0.5%;
+}
+
+/*Estilo de los elementos de la lista de la seccion indicada(portada)*/
+#seccion-amigos li{
+	margin-left: 7%;
+}
+
+/*Estilo de los enlaces de la seccion indicada(portada)*/
+#seccion-amigos a{
+	color: #488D61;
+	text-decoration: none;
+}
+
+/*Estilo de los parrafos de la seccion indicada(portada)*/
+#seccion-amigos p{
+	margin-top: -0.1%;
+	margin-bottom: 0%;
+	margin-left: 23%;
+}
+
+/*
+*	Elementos de la seccion publicaciones
+*/
+
+/*Estilo de la seccion en la que se encuentran las publicaciones(portada)*/
+#seccion-publicaciones{
+	border-width: 0.1em;
+	border-color: #365FA7;
+	border-style: solid;
+	margin-left: -1.9%;
+	width: 103%;
+	height: 50em;
+	background-color: #c2c2d6;
+}
+
+/*Estilo de la lista de la seccion indicada(portada)*/
+#seccion-publicaciones ul{
+	list-style-type: none;
+	margin-left: -105%;
+	margin-top: 0em;
+}
+
+/*Estilo de los elementos de la lista de la seccion indicada(portada)*/
+#seccion-publicaciones li{
+	margin-left: 50%;
+	margin-top: 1em;
+}
+
+/*Estilo de las secciones dentro de la seccion indicada(portada)*/
+#seccion-publicaciones section{
+	border-width: 0.1%;
+	border-color: #6699ff;
+	border-style: solid;
+	width: 192%;
+	height: 4em;
+	background-color: #6699ff;
+}
+
+/*Estilo de las imagenes dentro de la sección indicada(portada)*/
+#seccion-publicaciones img{
+	margin-top: 0.3em;
+	height: 3.3em;
+}
+
+/*Estilo del parrafo que contiene el tiempo de la publicacion(portada)*/
+#parrafo-tiempo-publicacion-p{
+	font-size: 0.5em;
+	margin-top: -6.9em;
+	margin-left: 29%;
+	margin-bottom: 0.7em;
+}
+
+/*Estilo del link al usuario que ha publicado la publicacion(portada)*/
+#link-usuario-publicacion{
+	font-size: 0em;
+}
+
+/*Estilo del link a la publicacion(portada)*/
+#link-titulo-publicacion{
+	font-size: 1.2em;
+	text-decoration: none;
+	color: #283248;
+	margin-left: 32%;
+}
+
+/*Estilo de el parrafo que contiene un trozo de la publicacion(portada)*/
+#parrafo-contenido-publicacion-p{
+	font-size: 0.7em;
+	margin-top: 0.2em;
+	margin-left: 37%;
+	text-decoration: none;
+}
+
+/*Estilo de el parrafo que contiene la numeracion de las publicaciones que se pueden ver(portada)*/
+#parrafo-numeracion{
+	margin-top: 48em;
+	margin-left: 40%;
+}
+
+/*Estilo de los links que hay dentro del parrafo indicado(portada)*/
+#parrafo-numeracion a{
+	text-decoration: none;
+	color: #283248;
+}
+
+/*
+*	Elementos de la seccion amigos activos
+*/
+
+/*Estilo de la seccion en la que se encuentran los amigos activos del usuario(portada)*/
+#seccion-amigos-activos{
+	border-style: none;
+	border-bottom: 0;
+	margin-left: -1.9%;
+	width: 104.3%;
+	height: 10em;
+	overflow-y: auto;
+	background-color: #c2c2d6;
+	float:left;
+}
+
+/*Estilo de la lista de la seccion indicada(portada)*/
+#seccion-amigos-activos ul{
+	list-style-type: none;
+	margin-left: -14%;
+	margin-top: 0.2em;
+}
+
+/*Estilo de los elementos de la lista de la seccion indicada(portada)*/
+#seccion-amigos-activos li{
+	margin-left: 20%;
+}
+
+/*Estilo de los enlaces de la seccion indicada(portada)*/
+#seccion-amigos-activos a{
+	color: #488D61;
+	text-decoration: none;
+}
+
+/*Estilo de los parrafos de la seccion indicada(portada)*/
+#seccion-amigos-activos p{
+	margin-top: -0.1em;
+	margin-bottom: 0em;
+	margin-left: 1%;
+}
+
+/*Estilo de la etiqueta h6 de la seccion indicada(portada)*/
+#seccion-amigos-activos h6{
+	color: #283248;
+	font-size: 1.5em;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	margin-left: 10.4%;
+}
+
+/*
+*	Elementos del pie de pagina
+*/
+
+/*Estilo para el pie de pagina(index-portada)*/
+#pie {
+	background: #365FA7;
+	color: white;
+	width: 99.7%;
+	height: 1.5em;
+	position: fixed;
+}
+
+/*Estilo para los parrafos del pie de pagina(index-portada)*/
+#pie p{
+	font-size: 1em;
+	padding-left: 28%;
+	margin-top:0.1em;
+	color: #EFD28E;
+}
+
+/*Estilo para los links del pie de pagina(index-portada)*/
+#pie a{
+	color: #EFD28E;
+}

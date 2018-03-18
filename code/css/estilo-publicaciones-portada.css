@@ -1,0 +1,101 @@
+/*Estilo de la fuente de la web*/
+body{
+	font-family: Ubuntu; 
+}
+
+/*
+*	Elementos de la seccion publicaciones
+*/
+
+/*Estilo de la seccion en la que se encuentran las publicaciones(portada)*/
+#seccion-publicaciones{
+	border-width: 0.1em;
+	border-color: #365FA7;
+	border-style: solid;
+	margin-left: -0.6%;
+	font-size: 1.5em;
+	width: 89.9%;
+	height: 35em;
+	float:left;
+	overflow-y: auto;
+	background-color: #c2c2d6;
+}
+
+/*Estilo de la lista de la seccion indicada(portada)*/
+#seccion-publicaciones ul{
+	list-style-type: none;
+	margin-left: -15%;
+	margin-top: 0.5em;
+}
+
+/*Estilo de los elementos de la lista de la seccion indicada(portada)*/
+#seccion-publicaciones li{
+	float:left;
+	margin-left: 13.5%;
+	margin-top: 1em;
+}
+
+/*Estilo de las secciones dentro de la seccion indicada(portada)*/
+#seccion-publicaciones section{
+	border-width: 0.1em;
+	border-color: #6699ff;
+	border-style: solid;
+	font-size: 1em;
+	width: 18em;
+	height: 7.3em;
+	float: left;
+	background-color: #6699ff;
+}
+
+/*Estilo de las imagenes dentro de la sección indicada(portada)*/
+#seccion-publicaciones img{
+	margin-left: 0.5em;
+	margin-top: 1em;
+}
+
+/*Estilo del parrafo que contiene el tiempo de la publicacion(portada)*/
+#parrafo-tiempo-publicacion-p{
+	font-size: 0.7em;
+	margin-top: -1.5em;
+	margin-left: 25%;
+	margin-bottom: 0.8em;
+}
+
+/*Estilo del link al usuario que ha publicado la publicacion(portada)*/
+#link-usuario-publicacion{
+	font-size: 0.7em;
+	color: #488D61;
+	text-decoration: none;
+	float:left;
+	margin-top: 0.15em;
+	margin-right: -17%;
+	margin-left: 5%;
+}
+
+/*Estilo del link a la publicacion(portada)*/
+#link-titulo-publicacion{
+	font-size: 1.2em;
+	text-decoration: none;
+	color: #283248;
+	margin-left: 13%;
+}
+
+/*Estilo de el parrafo que contiene un trozo de la publicacion(portada)*/
+#parrafo-contenido-publicacion-p{
+	font-size: 0.8em;
+	margin-top: 0.3em;
+	margin-left: 16%;
+	text-decoration: none;
+}
+
+/*Estilo de el parrafo que contiene la numeracion de las publicaciones que se pueden ver(portada)*/
+#parrafo-numeracion{
+	margin-top: 25.5em;
+	margin-left: 49%;
+}
+
+/*Estilo de los links que hay dentro del parrafo indicado(portada)*/
+#parrafo-numeracion a{
+	text-decoration: none;
+	color: #283248;
+}
